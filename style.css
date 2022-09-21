@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+p{
+    font-size: 16px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -91,7 +95,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper-min.png");
     background-size: 280px 280px;
 }
 
@@ -133,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -195,7 +199,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: #333333;
 }
 
 .d-bloc .panel button:hover,
@@ -651,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #333333!important;
 }
 
 .container {
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -730,6 +734,11 @@ h4 {
     color: #333333!important;
 }
 
+.informations {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -753,7 +762,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.9);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,20 +780,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #982B00;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #982B00;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #d13f00!important;
     color: #FFFFFF!important;
 }
 
@@ -804,26 +813,27 @@ h4 {
     color: #c27956!important;
 }
 
-.icon-dark-slate-blue {
+/* .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
+} */
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg-min.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg-min.png");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere-min.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.avif");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
