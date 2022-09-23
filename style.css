@@ -98,6 +98,9 @@ a:hover {
     background: url("img/texture-paper-min.png");
     background-size: 280px 280px;
 }
+.img-responsive {
+    width: 100%
+}
 
 .b-parallax {
     background-attachment: fixed;
