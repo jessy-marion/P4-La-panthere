@@ -94,10 +94,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper-min.png");
-    background-size: 280px 280px;
-}
 .img-responsive {
     width: 100%
 }
